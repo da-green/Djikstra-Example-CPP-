@@ -54,11 +54,3 @@ Original idea and implementation inspired by:
 ## Author
 
 Adapted and annotated by Daniel Green for learning purposes.
-
----
-
-## Notes
-
-This implementation assumes non-negative edge weights
-Graph is represented as an adjacency list of (neighbor, weight) pairs
-The priority queue stores (distance_from_source, vertex)
