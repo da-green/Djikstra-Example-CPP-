@@ -1,3 +1,21 @@
+/*
+Dijkstra's Shortest Path Algorithm (C++)
+
+Original source:
+GeeksforGeeks - https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-priority_queue-stl/
+
+Adapted and annotated by:
+Daniel Green
+
+Modifications:
+- Renamed variables for clarity (u, v, d)
+- Added detailed beginner-friendly comments explaining each step
+- Reformatted for educational readability
+
+Purpose:
+Personal study implementation to understand Dijkstra's algorithm using a priority queue.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
