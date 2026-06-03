@@ -29,3 +29,36 @@ This implementation uses:
 Where:
 - V = number of vertices
 - E = number of edges
+
+---
+
+## How to Run
+
+Compile and run using g++:
+
+```bash
+g++ main.cpp -o dijkstra
+./dijkstra
+```
+
+---
+
+## Reference
+
+Original idea and implementation inspired by:
+
+- [GeeksforGeeks](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-priority_queue-stl/)
+
+---
+
+## Author
+
+Adapted and annotated by Daniel Green for learning purposes.
+
+---
+
+## Notes
+
+This implementation assumes non-negative edge weights
+Graph is represented as an adjacency list of (neighbor, weight) pairs
+The priority queue stores (distance_from_source, vertex)
